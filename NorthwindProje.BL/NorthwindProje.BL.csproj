@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthwindProje.DAL\NorthwindProje.DAL.csproj" />
+    <ProjectReference Include="..\NorthwindProje.Entities\NorthwindProje.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
